@@ -1,0 +1,1 @@
+ALTER TABLE `user` ADD `telegram_id` int NOT NULL;

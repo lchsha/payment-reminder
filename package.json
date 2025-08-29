@@ -1,0 +1,43 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "turso:dev": "turso dev --db-file local.db",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.10",
+    "@nuxt/eslint": "^1.7.0",
+    "@nuxt/icon": "^1.15.0",
+    "@pinia/nuxt": "^0.11.2",
+    "@tailwindcss/vite": "^4.1.11",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.0",
+    "drizzle-orm": "^0.44.3",
+    "form-data": "^4.0.4",
+    "jsonwebtoken": "^9.0.2",
+    "nuxt": "^4.0.1",
+    "pinia": "^3.0.3",
+    "tailwindcss": "^4.1.11",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1",
+    "zod": "^4.0.5"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.17.0",
+    "@iconify-json/tabler": "^1.2.19",
+    "@nuxtjs/dotenv": "^1.4.2",
+    "daisyui": "^5.0.46",
+    "drizzle-kit": "^0.31.4",
+    "eslint": "^9.31.0",
+    "eslint-plugin-format": "^1.0.1",
+    "tsx": "^4.20.3"
+  }
+}
