@@ -24,6 +24,7 @@ onMounted(() => {
   script.value.async = true;
   document.getElementById("telegram-login-button").appendChild(script.value);
   window.onTelegramAuth = (user) => {
+    console.log("onTelegramAuth triggered with user:", user);
     auth(user);
   };
 });
