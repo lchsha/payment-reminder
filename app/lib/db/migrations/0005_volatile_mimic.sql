@@ -1,0 +1,1 @@
+ALTER TABLE `event` DROP COLUMN `creator_id`;

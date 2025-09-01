@@ -60,7 +60,5 @@ export default defineEventHandler(async (e) => {
     path: "/",
   });
 
-  console.log("END AUTH");
-
   return existing;
 });

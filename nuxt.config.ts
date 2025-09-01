@@ -26,4 +26,13 @@ export default defineNuxtConfig({
     //   cert: "./server.pem",
     // },
   },
+  nitro: {
+    routeRules: {
+      "/**": {
+        headers: {
+          "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
+        },
+      },
+    },
+  },
 });

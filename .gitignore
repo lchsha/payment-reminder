@@ -26,3 +26,5 @@ logs
 local.*
 *.key
 *.pem
+
+commands.txt
